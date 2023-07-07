@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Top Nav */
+.top-nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.top-nav a:hover{
+    background: #857c7c;
+}
+
+.top-nav-right{
+    float: right;
+}
+
+/* home-section */
+
+.home-section{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.home-section p{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #857c7c;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* section-container */
+
+/* about-section */
+
+.about-section{
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.section-container{
+    width: 80%;
+    margin: auto;
+}
+
+.img-container{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 49%;
+    float: left;
+}
+
+.img-container img{
+    opacity: .7;
+}
+
+.text-container{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 49%;
+    float: left;
+}
+
+.about-section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-section p{
+    font-size: 20px;
+}
+
+.grey{
+    color: grey;
+}
+
+/* menu-section */
+
+.menu-section{
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.text-container1{
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+}
+
+.img-container1{
+    box-sizing: border-box;
+    width: 45%;
+    float: left;
+    opacity: .7;
+}
+
+.menu-section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3{
+    letter-spacing: 4px;
+}
+
+.grey1{
+    color: grey;
+}
+
+/* contact-section */
+
+.contact-section{
+    padding: 60px 20px;
+    margin-bottom: 50px;
+}
+
+.grey2{
+    color: #607d8b;
+}
+
+.contact-section input[type="text"],.contact-section input[type="date"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    padding: 15px 10px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #c9b5b5;
+}
+
+/* footer */
+.footer{
+    background: #fcd7d7;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer a{
+    color: #000;
+}
